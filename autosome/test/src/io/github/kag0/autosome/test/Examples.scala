@@ -25,7 +25,7 @@ def formatUser(user: User) =
   }
 
 val auto: AutoSome[String] = "hello"
-auto.map(s"$_ world") // Some
+auto.map(s"$_ world") // Some("hello world")
 
 def optionalDefaultParameters(defaultable: AutoSome[Int] = 9)
 
